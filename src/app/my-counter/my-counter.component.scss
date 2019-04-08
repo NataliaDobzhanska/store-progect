@@ -1,0 +1,33 @@
+:host {
+  display: block;
+  padding: 1rem;
+  .main-container {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid lightblue;
+    border-radius: 5%;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .item {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .buttons-wrapper button {
+    padding: 1rem 0.5rem;
+    margin: 0.5rem;
+    background-color: lightblue;
+    color: #ffffff;
+    border: 1px solid lightblue;
+    box-shadow: none;
+    outline: none;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
